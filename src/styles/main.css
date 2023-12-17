@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  box-sizing: border-box;
+  font-family: "SF Pro Text", sans-serif;
+}
+
+@font-face {
+  font-family: "SF Pro Text";
+  src: local("SF Pro Text"), url("/src/assets/San_Francisco_Pro_Text/SFProText-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "SF Pro Text";
+  src: local("SF Pro Text Medium"), url("/src/assets/San_Francisco_Pro_Text/SFProText-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "SF Pro Text";
+  src: local("SF Pro Text Semibold"), url("/src/assets/San_Francisco_Pro_Text/SFProText-Semibold.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "SF Pro Text";
+  src: local("SF Pro Text Bold"), url("/src/assets/San_Francisco_Pro_Text/SFProText-Bold.ttf");
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=main.css.map */

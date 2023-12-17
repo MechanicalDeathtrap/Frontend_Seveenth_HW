@@ -1,0 +1,33 @@
+$header-color: rgba(249, 249, 249, 0.94)
+
+a
+  text-decoration: none
+  color: black
+
+.header__container > *
+  color: $header-color
+
+.header
+  &__container
+    font-size: 18px
+    font-weight: 500
+    display: flex
+    padding: 23px 32px 23px 26px
+    justify-content: space-between
+    align-items: center
+    background-color: $header-color
+
+  &__left-buttons
+    display: flex
+    gap: 42px
+
+  &__right-buttons
+    display: flex
+    gap: 31px
+
+.collection-button , .add-button, .search-button
+  cursor: pointer
+  align-items: center
+  display: flex
+  gap: 12px
+

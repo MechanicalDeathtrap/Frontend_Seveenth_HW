@@ -1,0 +1,58 @@
+[
+
+    {
+      "id": 1
+      "name": "Годзилла",
+      "src": "C:\\Users\\korik\\FrontendLessons\\frontend_last_hw\\public\\годзилла.png",
+      "rating": "6.1"
+    },
+    {
+      "id": 2,
+      "name": "Девушка, подающая надежды",
+      "src": "C:\\Users\\korik\\FrontendLessons\\frontend_last_hw\\public\\девушка.png",
+      "rating": "6.8"
+    },
+    {
+      "id": 3,
+      "name": "Душа",
+      "src": "C:\\Users\\korik\\FrontendLessons\\frontend_last_hw\\public\\душа.png",
+      "rating": "8.3"
+    },
+    {
+      "id": 4,
+      "name": "Ещё по одной",
+      "src": "C:\\Users\\korik\\FrontendLessons\\frontend_last_hw\\public\\ещё.png",
+      "rating": "7.5"
+    },
+    {
+      "id": 5,
+      "name": "Земля кочевников",
+      "src": "C:\\Users\\korik\\FrontendLessons\\frontend_last_hw\\public\\земля.png",
+      "rating": "7.3"
+    },
+    {
+      "id": 6,
+      "name": "Манк",
+      "src": "C:\\Users\\korik\\FrontendLessons\\frontend_last_hw\\public\\манк.png",
+      "rating": "7.1"
+    },
+    {
+      "id": 7,
+      "name": "Минари",
+      "src": "C:\\Users\\korik\\FrontendLessons\\frontend_last_hw\\public\\минари.png",
+      "rating": "6.9"
+    },
+    {
+      "id": 8,
+      "name": "Отец",
+      "src": "C:\\Users\\korik\\FrontendLessons\\frontend_last_hw\\public\\отец.png",
+      "rating": "7.9"
+    },
+    {
+      "id": 9,
+      "name": "Солнцестояние",
+      "src": "C:\\Users\\korik\\FrontendLessons\\frontend_last_hw\\public\\солнцестояние.png",
+      "rating": "6.6"
+    }
+  
+]
