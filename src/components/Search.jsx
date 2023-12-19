@@ -1,33 +1,34 @@
 import CreateList from "./CreateList.jsx";
+import "../styles/search.css";
 
 function SearchComponent(){
     return(
-        <div className="search-container">
+        <div className="body-container">
             <div className="search-header">
                 <h1 className="page-title">Поиск</h1>
                 <div className="search-input__container">
-                    <input type="text" className="search-input" value="Введите название фильма, например «Титаник»"/>
+                    <input type="text" className="search-input" placeholder="Введите название фильма, например «Титаник»"/>
                 </div>
             </div>
             <div className="search-collection">
-                <section className="recommendation-section">
-                    <div className="recommendation-buttons">
-                        <h3 className="recommendation-buttons__title">Рекомендации</h3>
-                        <a href="#" className="recommendation-buttons__link">Все</a>
+                <section className="images-section">
+                    <div className="section-buttons">
+                        <h3 className="section-buttons__title">Рекомендации</h3>
+                        <a href="#" className="section-buttons__link">Все</a>
                     </div>
-                    <div className="recommendation-items">
-                        <ul className="recommendation-list">
+                    <div className="section-items">
+                        <ul className="items-list">
                             <CreateList property={recommendationJson}/>
                         </ul>
                     </div>
                 </section>
-                <section className="oskar-section">
-                    <div className="oskar-buttons">
-                        <h3 className="oskar-buttons__title">Рекомендации</h3>
-                        <a href="#" className="oskar-buttons__link">Все</a>
+                <section className="images-section">
+                    <div className="section-buttons">
+                        <h3 className="section-buttons__title">Оскар 2021</h3>
+                        <a href="#" className="section-buttons__link">Все</a>
                     </div>
-                    <div className="oskar-items">
-                        <ul className="oskar-list">
+                    <div className="section-items">
+                        <ul className="items-list">
                             <CreateList property={oskarJson}/>
                         </ul>
                     </div>

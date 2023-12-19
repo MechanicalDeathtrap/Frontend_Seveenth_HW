@@ -1,0 +1,59 @@
+$input-color: rgba(60, 60, 67, 0.30)
+$agona-blue: #002DFF
+
+.body-container
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+  gap: 45px
+  margin-top: 82px
+
+.search-header
+  display: flex
+  flex-direction: column
+  gap: 35px
+  width: 560px
+
+.search-input
+  width: 100%
+  font-size: 17px
+  font-weight: 400
+  color: $input-color
+  padding: 16px 0
+  border: none
+
+  &__container
+    border-bottom: 1px solid $input-color
+    margin: 0 19px
+
+.search-collection
+  width: 560px
+  display: flex
+  flex-direction: column
+  gap: 47px
+
+.images-section
+  display: flex
+  flex-direction: column
+  gap: 30px
+
+.section-buttons
+  display: flex
+  justify-content: space-between
+
+  &__title
+    font-size: 24px
+    font-weight: 700
+    line-height: 20px
+
+  &__link
+    font-size: 18px
+    font-weight: 400
+    line-height: 22px
+    color: $agona-blue
+
+.items-list
+  display: flex
+  flex-wrap: wrap
+  gap: 25px

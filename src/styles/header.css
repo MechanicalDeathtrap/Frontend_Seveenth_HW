@@ -41,7 +41,7 @@ a {
   background: #002DFF;
 }
 
-.selected-button path {
+.selected-button path, .selected-button svg {
   fill: #fff;
 }
 

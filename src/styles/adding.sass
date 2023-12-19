@@ -1,0 +1,46 @@
+$not-chose-collection-button-color: rgba(118, 118, 128, 0.12)
+$not-chose-collection-button-color-lighter:rgba(118, 118, 128, 0.01)
+$chosen-button-color: white
+
+.buttons
+  justify-content: center
+  border-radius: 9px
+  background-color: $not-chose-collection-button-color
+  display: flex
+  align-items: center
+
+.collection__buttons
+  justify-content: center
+
+
+.kinopoisk-button, .manually-button
+  text-align: center
+  font-size: 17px
+  font-weight: 600
+  line-height: 20px
+  margin: 3px
+  background-color: $not-chose-collection-button-color-lighter
+  border: none
+  cursor: pointer
+
+.manually-button
+  padding: 6px 55px
+
+.chosen-button
+  background-color: $chosen-button-color
+  padding: 6px 55px
+
+.search-container
+  &__title
+    font-size: 24px
+    font-weight: 700
+    line-height: 20px
+
+.search-container
+  width: 560px
+  display: flex
+  flex-direction: column
+  gap: 10px
+
+.search-input__container
+  margin: 0

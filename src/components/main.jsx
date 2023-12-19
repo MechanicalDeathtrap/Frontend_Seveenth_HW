@@ -8,6 +8,7 @@ import WelcomeComponent from "./WelcomeComponent.jsx";
 import Header from "./header.jsx";
 import Collection from "./Collection.jsx";
 import SearchComponent from "./Search.jsx";
+import Adding from "./Adding.jsx";
 
 const router = createBrowserRouter([
     {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
             {
                 path: '/search',
                 element: <SearchComponent/>
+            },
+            {
+                path: '/add-to-watch-later',
+                element: <Adding/>
             }
         ],
     },
