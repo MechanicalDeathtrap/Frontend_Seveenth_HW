@@ -1,8 +1,11 @@
 $header-color: rgba(249, 249, 249, 0.94)
+$agona-blue: #002DFF
+$svg-white: #fff
+$font-color: black
 
 a
   text-decoration: none
-  color: black
+  color: $font-color
 
 .header__container > *
   color: $header-color
@@ -25,9 +28,30 @@ a
     display: flex
     gap: 31px
 
+
+.link
+  display: flex
+  align-items: center
+
+.selected-button
+  padding: 10px
+  border-radius: 25px
+  background: $agona-blue
+  color: $svg-white
+
+.selected-button > *
+  background: $agona-blue
+
+.selected-button path
+  fill: $svg-white
+
 .collection-button , .add-button, .search-button
   cursor: pointer
   align-items: center
   display: flex
   gap: 12px
+
+.collection-button svg , .add-button svg, .search-button svg
+  fill: $agona-blue
+
 

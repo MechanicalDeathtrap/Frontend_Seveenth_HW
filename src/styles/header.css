@@ -3,6 +3,10 @@ a {
   color: black;
 }
 
+.header__container > * {
+  color: rgba(249, 249, 249, 0.94);
+}
+
 .header__container {
   font-size: 18px;
   font-weight: 500;
@@ -13,14 +17,32 @@ a {
   background-color: rgba(249, 249, 249, 0.94);
 }
 .header__left-buttons {
-  background-color: rgba(249, 249, 249, 0.94);
   display: flex;
   gap: 42px;
 }
 .header__right-buttons {
-  background-color: rgba(249, 249, 249, 0.94);
   display: flex;
   gap: 31px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+}
+
+.selected-button {
+  padding: 10px;
+  border-radius: 25px;
+  background: #002DFF;
+  color: #fff;
+}
+
+.selected-button > * {
+  background: #002DFF;
+}
+
+.selected-button path {
+  fill: #fff;
 }
 
 .collection-button, .add-button, .search-button {
@@ -28,6 +50,10 @@ a {
   align-items: center;
   display: flex;
   gap: 12px;
+}
+
+.collection-button svg, .add-button svg, .search-button svg {
+  fill: #002DFF;
 }
 
 /*# sourceMappingURL=header.css.map */

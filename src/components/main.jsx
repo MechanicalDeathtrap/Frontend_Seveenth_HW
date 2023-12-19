@@ -7,6 +7,7 @@ import '../styles/main.css'
 import WelcomeComponent from "./WelcomeComponent.jsx";
 import Header from "./header.jsx";
 import Collection from "./Collection.jsx";
+import SearchComponent from "./Search.jsx";
 
 const router = createBrowserRouter([
     {
@@ -15,11 +16,15 @@ const router = createBrowserRouter([
         children: [
             {
                 path: '/welcome-page',
-                element: <WelcomeComponent />,
+                element: <WelcomeComponent />
             },
             {
                 path: '/collection',
                 element: <Collection />
+            },
+            {
+                path: '/search',
+                element: <SearchComponent/>
             }
         ],
     },
