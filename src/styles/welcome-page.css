@@ -1,9 +1,18 @@
 .welcome-page {
-  margin-top: 379px;
+  margin-top: 260px;
   display: flex;
   flex-direction: column;
-  gap: 332px;
+  gap: 203px;
   align-items: center;
+}
+
+.main-big-logo {
+  height: 116px;
+  width: 282px;
+}
+
+.agona-icon {
+  height: 41px;
 }
 
 /*# sourceMappingURL=welcome-page.css.map */

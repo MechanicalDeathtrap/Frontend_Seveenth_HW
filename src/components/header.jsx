@@ -45,7 +45,7 @@ function Header() {
                         <NavLink to={'/collection'} key="Collection" className="link">
                             <div className={(path === "Collection")? "selected-button collection-button" : "collection-button"}
                                      onClick={() => changePath("Collection")}>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none"  >
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" className="collection-icon" >
                                         <path d="M9.13274 9.13274C9.55752 8.70796 9.87611 8.0708 9.87611 7.43363C9.87611 6.90265 9.66372 6.37168 9.34513 5.84071C7.75221 6.47788 6.47788 7.75221 5.84071 9.34513C6.26549 9.66372 6.79646 9.87611 7.43363 9.87611C8.0708 9.87611 8.70796 9.55752 9.13274 9.13274Z" />
                                         <path d="M9.13274 14.9735C8.70796 14.5487 8.0708 14.2301 7.32743 14.2301C6.79646 14.2301 6.26549 14.4425 5.73451 14.7611C6.37168 16.354 7.64602 17.5221 9.23894 18.2655C9.55752 17.8407 9.76991 17.3097 9.76991 16.6726C9.87611 16.0354 9.55752 15.3982 9.13274 14.9735Z" />
                                         <path d="M14.9735 9.13274C15.3982 9.55752 16.0354 9.87611 16.7788 9.87611C17.3097 9.87611 17.8407 9.66372 18.3717 9.34513C17.7345 7.75221 16.4602 6.58407 14.8673 5.84071C14.5487 6.26549 14.3363 6.79646 14.3363 7.43363C14.2301 8.0708 14.4425 8.70796 14.9735 9.13274Z"/>
@@ -58,7 +58,7 @@ function Header() {
                         </NavLink>
                         <NavLink to={'/add-to-watch-later'} key="Add" className='link'>
                                 <div className={(path === "Add")? "selected-button add-button " : 'add-button'} onClick={() => changePath( "Add")}>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none" className="add-icon">
                                         <path d="M9.33333 0H11.6667V21H9.33333V0Z" />
                                         <path d="M21 9.33333V11.6667L0 11.6667L8.15943e-08 9.33333H21Z" />
                                     </svg>

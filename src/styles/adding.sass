@@ -1,6 +1,4 @@
-$not-chose-collection-button-color: rgba(118, 118, 128, 0.12)
-$not-chose-collection-button-color-lighter:rgba(118, 118, 128, 0.01)
-$chosen-button-color: white
+@import "colors.sass"
 
 .buttons
   justify-content: center
@@ -9,8 +7,11 @@ $chosen-button-color: white
   display: flex
   align-items: center
 
-.collection__buttons
+.collection-adding__buttons
   justify-content: center
+  display: flex
+  gap: 42px
+  align-items: center
 
 
 .kinopoisk-button, .manually-button
@@ -26,13 +27,15 @@ $chosen-button-color: white
 .manually-button
   padding: 6px 55px
 
-.chosen-button
+.chosen-adding-button
   background-color: $chosen-button-color
-  padding: 6px 55px
+  border-radius: 9px
+  padding: 6px 50px
+  box-shadow: 0 3px 1px 0 $box-shadow-first-color, 0 3px 8px 0 $box-shadow-second-color
 
 .search-container
   &__title
-    font-size: 24px
+    font-size: 22px
     font-weight: 700
     line-height: 20px
 
@@ -44,3 +47,9 @@ $chosen-button-color: white
 
 .search-input__container
   margin: 0
+
+.adding-container-header
+  display: flex
+  flex-direction: column
+  gap: 35px
+  width: 462px

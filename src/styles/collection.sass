@@ -1,26 +1,20 @@
-$not-chose-collection-button-color: rgba(118, 118, 128, 0.12)
-$not-chose-collection-button-color-lighter:rgba(118, 118, 128, 0.01)
-$chosen-button-color: white
-$box-shadow-first-color: rgba(0, 0, 0, 0.04)
-$box-shadow-second-color: rgba(0, 0, 0, 0.12)
-$agona-blue: #002DFF
-$rating-background: white
+@import "colors.sass"
 
 .collection-container
   display: flex
   flex-direction: column
   align-items: center
-  padding-top: 82px
-  gap: 42px
+  padding-top: 72px
+  gap: 38px
 
 .collection
   &__table
     display: flex
-    width: 560px
+    width: 462px
 
   &__buttons
     display: flex
-    gap: 65px
+    gap: 42px
     align-items: center
     justify-content: flex-end
 
@@ -32,18 +26,18 @@ $rating-background: white
 .container-header
   display: flex
   flex-direction: column
-  gap: 33px
-  width: 560px
+  gap: 28px
+  width: 462px
 
 .list-item
   display: flex
   flex-direction: column
   position: relative
-  gap: 18px
+  gap: 10px
 
 .page-title
   text-align: center
-  font-size: 45px
+  font-size: 36px
   font-style: normal
   font-weight: 700
   line-height: 41px
@@ -57,7 +51,7 @@ $rating-background: white
 
 .will-watch-button , .watched-button
   text-align: center
-  font-size: 17px
+  font-size: 15px
   font-weight: 600
   line-height: 20px
   margin: 3px
@@ -68,21 +62,21 @@ $rating-background: white
 .chosen-button
   background-color: $chosen-button-color
   border-radius: 8px
-  padding: 6px 40px
+  padding: 6px 30px
   box-shadow: 0 3px 1px 0 $box-shadow-first-color, 0 3px 8px 0 $box-shadow-second-color
 
 .watched-button
-  padding: 6px 35px
+  padding: 6px 25px
 
 .item-image
-  width: 121px
-  height: 180px
+  width: 103px
+  height: 160px
 
 .collection-list
   display: flex
   flex-direction: row
   flex-wrap: wrap
-  gap: 25px
+  gap: 16px
 
 .item-rating
   color: $agona-blue
@@ -105,4 +99,4 @@ $rating-background: white
 .item-name
   font-weight: 600
   line-height: 21px
-  font-size: 14px
+  font-size: 12px
