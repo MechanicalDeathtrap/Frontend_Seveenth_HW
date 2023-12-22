@@ -3,10 +3,6 @@ a {
   color: black;
 }
 
-.header__container > * {
-  color: rgba(249, 249, 249, 0.94);
-}
-
 .header__container {
   font-size: 18px;
   font-weight: 500;
@@ -15,6 +11,7 @@ a {
   justify-content: space-between;
   align-items: center;
   background-color: rgba(249, 249, 249, 0.94);
+  position: relative;
 }
 .header__left-buttons {
   display: flex;
@@ -23,6 +20,11 @@ a {
 .header__right-buttons {
   display: flex;
   gap: 31px;
+}
+
+.site-main-logo {
+  position: absolute;
+  right: 48%;
 }
 
 .link {
@@ -35,10 +37,6 @@ a {
   border-radius: 25px;
   background: #002DFF;
   color: #fff;
-}
-
-.selected-button > * {
-  background: #002DFF;
 }
 
 .selected-button path, .selected-button svg {

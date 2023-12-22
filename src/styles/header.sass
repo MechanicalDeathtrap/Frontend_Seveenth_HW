@@ -4,9 +4,6 @@ a
   text-decoration: none
   color: $font-color
 
-.header__container > *
-  color: $header-color
-
 .header
   &__container
     font-size: 18px
@@ -16,6 +13,7 @@ a
     justify-content: space-between
     align-items: center
     background-color: $header-color
+    position: relative
 
   &__left-buttons
     display: flex
@@ -25,6 +23,9 @@ a
     display: flex
     gap: 31px
 
+.site-main-logo
+  position: absolute
+  right: 50% - 2%
 
 .link
   display: flex
@@ -35,9 +36,6 @@ a
   border-radius: 25px
   background: $agona-blue
   color: $svg-white
-
-.selected-button > *
-  background: $agona-blue
 
 .selected-button path , .selected-button svg
   fill: $svg-white
