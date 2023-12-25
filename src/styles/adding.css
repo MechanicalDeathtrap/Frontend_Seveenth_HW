@@ -1,0 +1,62 @@
+.buttons {
+  justify-content: center;
+  border-radius: 9px;
+  background-color: rgba(118, 118, 128, 0.12);
+  display: flex;
+  align-items: center;
+}
+
+.collection-adding__buttons {
+  justify-content: center;
+  display: flex;
+  gap: 42px;
+  align-items: center;
+}
+
+.kinopoisk-button, .manually-button {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 3px;
+  background-color: rgba(118, 118, 128, 0.01);
+  border: none;
+  cursor: pointer;
+}
+
+.manually-button {
+  padding: 6px 55px;
+}
+
+.chosen-adding-button {
+  background-color: white;
+  border-radius: 9px;
+  padding: 6px 50px;
+  box-shadow: 0 3px 1px 0 rgba(0, 0, 0, 0.04), 0 3px 8px 0 rgba(0, 0, 0, 0.12);
+}
+
+.search-container__title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.search-container {
+  width: 473px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.search-input__container {
+  margin: 0;
+}
+
+.adding-container-header {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  width: 462px;
+}
+
+/*# sourceMappingURL=adding.css.map */

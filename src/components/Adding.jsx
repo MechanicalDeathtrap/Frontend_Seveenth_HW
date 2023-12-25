@@ -1,4 +1,5 @@
 import "../styles/adding.css";
+import CreateButtons from "./Buttons.jsx";
 
 function Adding(){
     return(
@@ -7,8 +8,7 @@ function Adding(){
                 <h1 className="page-title">О фильме</h1>
                 <div className="collection-adding__buttons">
                     <div className="buttons">
-                        <button className="kinopoisk-button chosen-adding-button" >КиноПоиск</button>
-                        <button className="manually-button" >Вручную</button>
+                        <CreateButtons property={["Кинопоиск", "Вручную"]}/>
                     </div>
                 </div>
             </div>

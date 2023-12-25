@@ -1,19 +1,16 @@
-import {useState} from "react";
+
 import "../styles/collection.css";
 import CreateList from "./CreateList.jsx";
+import CreateButtons from "./Buttons.jsx";
 
 function Collection(){
-    const [button, setButton] = useState("WillWatch");
-    //const collectionElements = ({button} === "WillWatch") ? ;
-
     return(
         <div className="collection-container">
             <div className="container-header">
                 <h1 className="page-title">Коллекция</h1>
                 <div className="collection__buttons">
                     <div className="left-buttons">
-                        <button className="will-watch-button chosen-button" onClick={() => setButton("WillWatch")}>Буду смотреть</button>
-                        <button className="watched-button" onClick={() => setButton("Watched")}>Просмотрено</button>
+                        <CreateButtons property={["Буду смотреть", "Просмотрено"]}/>
                     </div>
                     <div className="change-view-button">
                         <img src="/public/Icon_List.svg" alt="list-icon" className="change-view-icon"/>

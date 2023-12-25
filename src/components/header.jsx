@@ -82,9 +82,9 @@ function Header() {
                                 <span className="search-title">Поиск</span>
                             </div>
                         </NavLink>
-                        <div className="profile-photo">
+                        <NavLink to={"/authorization"} className="profile-photo">
                             <img src="/public/Web-Button-Profile.svg" alt="profile-photo" className="user-photo"/>
-                        </div>
+                        </NavLink>
                     </div>
                 </header>
                 <div>

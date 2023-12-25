@@ -9,6 +9,7 @@ import Header from "./header.jsx";
 import Collection from "./Collection.jsx";
 import SearchComponent from "./Search.jsx";
 import Adding from "./Adding.jsx";
+import AuthorizationComponent from "./Authorization.jsx";
 
 const router = createBrowserRouter([
     {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
             }
         ],
     },
+    {
+        path: "/authorization",
+        element: <AuthorizationComponent/>
+    }
 /*    {
         path:'/collection',
         element:<HeaderCollection/>
